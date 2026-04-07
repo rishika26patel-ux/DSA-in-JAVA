@@ -14,5 +14,16 @@ public class string_ {
         System.out.println(str1.replace('1','z'));
         String str3 = str1.concat("World");
         System.out.println(str3);
+        System.out.println(str1.equals(str2));
+
+//        REVERSE STRING
+        String rev="";
+        for(int i=str1.length()-1;i>=0;i--){
+            rev=rev+str1.charAt(i);
+        }
+        System.out.println(rev);
     }
 }
+
+
+
