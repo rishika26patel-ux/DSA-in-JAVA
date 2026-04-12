@@ -21,7 +21,7 @@ public class reverse_using_recursion {
     static int rev=0;
     static int reverse(int x){
         if(x==0)return rev;
-        rev =10 * x%10;
+        rev = rev * 10 + x%10;
         return reverse (x/10);
     }
 
